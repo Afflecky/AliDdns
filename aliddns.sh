@@ -67,9 +67,6 @@ echo -e "${Font_Green}
 # 
 # Build:    ${BuildTime}
 # 支持平台:  CentOS/Debian/Ubuntu
-# 作者:     iLemonrain (原作者: kyriosli/koolshare-aliddns)
-# Blog:     https://blog.ilemonrain.com
-# E-mail:   ilemonrain@ilemonrain.com
 #========================================================
 
 ${Font_suffix}"
@@ -537,13 +534,7 @@ function_AliDDNS_CleanEnviroment(){
 
 function_AliDDNS_ShowVersion(){
     echo -e "
-# AliDDNS 工具 (阿里云云解析修改工具)
-# 
-# Build:    ${BuildTime}
-# 支持平台:  CentOS/Debian/Ubuntu
-# 作者:     iLemonrain (原作者: kyriosli/koolshare-aliddns)
-# Blog:     https://blog.ilemonrain.com
-# E-mail:   ilemonrain@ilemonrain.com
+
 "
 exit 0
 }
