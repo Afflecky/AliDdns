@@ -2,8 +2,10 @@ For CentOS：
 ====
 
 yum install -y wget curl cronie
+
 For Debian 8+：
 ====
+
 apt install -y wget curl cron
 For Ubuntu/Debian 7：
 ====
