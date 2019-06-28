@@ -1,5 +1,5 @@
 For CentOS：
-====
+#
 
 	yum install -y wget curl cronie
 
