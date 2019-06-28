@@ -4,40 +4,36 @@ For CentOS：
 	yum install -y wget curl cronie
 
 For Debian 8+：
-====
+-
 
 	apt install -y wget curl cron
 
 For Ubuntu/Debian 7：
-====
-apt-get install -y wget curl cron
+-
+	apt-get install -y wget curl cron
 然后下载AliDDNS脚本到你的服务器上：
 
-wget -O /usr/sbin/aliddns.sh https://raw.githubusercontent.com/Afflecky/AliDdns/master/aliddns.sh
-下载地址请参考上面的 更新记录 & 下载地址 一节！
+	wget -O /usr/sbin/aliddns.sh https://raw.githubusercontent.com/Afflecky/AliDdns/master/aliddns.sh
+
 为脚本文件加上可执行属性：
 
-chmod +x /usr/sbin/aliddns.sh
+	chmod +x /usr/sbin/aliddns.sh
 执行脚本，开始配置：
 
-/usr/sbin/aliddns.sh
+	/usr/sbin/aliddns.sh
 弹出启动菜单：
-AliDDNS 工具 (阿里云云解析修改工具)
+	AliDDNS 工具 (阿里云云解析修改工具)
 
-使用方法 (Usage)：
-AliDDNS.sh run 配置并运行工具 (如果已有配置将会直接运行)
-AliDDNS.sh config 仅配置工具
-AliDDNS.sh clean 清理配置文件及运行环境
-AliDDNS.sh version 显示版本信息
-[Info] 选择你要使用的功能:
-	1. 
-配置并运行 AliDDNS
-	2. 
-仅配置 AliDDNS
-	3. 
-清理环境
-	4. 
-退出
+	使用方法 (Usage)：
+	AliDDNS.sh run 配置并运行工具 (如果已有配置将会直接运行)
+	AliDDNS.sh config 仅配置工具
+	AliDDNS.sh clean 清理配置文件及运行环境
+	AliDDNS.sh version 显示版本信息
+	[Info] 选择你要使用的功能:
+		1. 配置并运行 AliDDNS
+		2. 仅配置 AliDDNS
+		3. 清理环境
+		4. 退出
 
 
 输入数字以选择: _
