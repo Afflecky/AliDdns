@@ -1,3 +1,10 @@
+一键使用：
+-
+	wget -O /usr/sbin/aliddns.sh https://raw.githubusercontent.com/Afflecky/AliDdns/master/aliddns.sh && chmod +x /usr/sbin/aliddns.sh && bash /usr/sbin/aliddns.sh
+
+手动配置
+-
+
 For CentOS：
 --
 
