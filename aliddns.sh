@@ -358,7 +358,7 @@ function_document_AliDDNS_LocalIP(){
        出于稳定性考虑，默认使用whatismyip.akamai.com作为获取IP的方式，
        你也可以指定自己喜欢的获取IP方式。输入格式为需要执行的命令。
        请不要在命令中带双引号！解析配置文件时候会过滤掉！"
-    AliDDNS_LocalIP=""
+    AliDDNS_LocalIP="curl ip.sb"
 }
 
 function_document_AliDDNS_DomainServerIP(){
