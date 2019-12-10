@@ -20,7 +20,7 @@ For Ubuntu/Debian 7：
 	apt-get install -y wget curl cron
 然后下载AliDDNS脚本到你的服务器上：
 
-	wget -O /usr/sbin/aliddns.sh https://raw.githubusercontent.com/Afflecky/AliDdns/master/aliddns.sh
+	wget -O /usr/sbin/aliddns.sh https://raw.githubusercontent.com/Etnous/AliDdns/master/aliddns.sh
 
 为脚本文件加上可执行属性：
 
