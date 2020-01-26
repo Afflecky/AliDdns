@@ -1,6 +1,6 @@
 一键使用：
 -
-	wget -O /usr/sbin/aliddns.sh https://raw.githubusercontent.com/Etnous/AliDdns/master/v.sh && chmod +x /usr/sbin/aliddns.sh && bash /usr/sbin/aliddns.sh
+	wget -O /usr/sbin/aliddns.sh https://raw.githubusercontent.com/Etnous/AliDdns/master/aliddns.sh && chmod +x /usr/sbin/aliddns.sh && bash /usr/sbin/aliddns.sh
 
 手动配置
 -
